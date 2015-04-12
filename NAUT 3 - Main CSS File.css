@@ -628,7 +628,7 @@
 						}
 
 
-				.account-activity-box, .sidebox.create, .morelink .nub,.sidebox.submit.submit-text {display: none;}
+				.account-activity-box, .sidebox.create, .morelink .nub {display: none;}
 
 
 				/* Login form */
