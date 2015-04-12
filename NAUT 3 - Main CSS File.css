@@ -272,8 +272,15 @@
 							}
 
 								#header .tabmenu li.selected a:hover {
-									background-color: rgba(0,0,0,0.08);
-								}
+                                    background-color: rgba(0, 0, 0, 0.08);
+                                }
+
+                            #header .redditname a {
+                                background-image: url(%%logo%%);
+                                height: 48px;
+                                width: 151px;
+                                text-indent: -9999px;
+                            }
 
 						.listing-page .tabmenu li:nth-of-type(3), .wiki-page .tabmenu li:nth-of-type(3),	/* Rising */
 						.listing-page .tabmenu li:nth-of-type(4), .wiki-page .tabmenu li:nth-of-type(4),	/* Controversial */
@@ -2996,3 +3003,35 @@
 
 
 ==================================================================================================================================*/
+
+    /*  FLAIR */
+
+    .flair-sorc {
+        display: inline-block;
+        background-image: url(%%sorcerer%%);
+        vertical-align: middle;
+        margin-right: 3px;
+        margin-top: -3px;
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        border-width: 0;
+        padding: 0;
+        background-color: transparent;
+        text-indent: -9999px;
+    }
+
+    .flair-barb {
+        display: inline-block;
+        background-image: url(%%barbarian%%);
+        vertical-align: middle;
+        margin-right: 3px;
+        margin-top: -3px;
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        border-width: 0;
+        padding: 0;
+        background-color: transparent;
+        text-indent: -9999px;
+    }
